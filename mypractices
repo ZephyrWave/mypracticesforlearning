@@ -1,0 +1,99 @@
+
+"""sentence = "AmAzInG SpIdErMaN ThInKs tHaT He iS AmAzInG"
+new_sentence = ""
+condition = True
+
+for char in sentence:
+    if condition:
+        char = char.upper()
+        condition = False
+    else:
+        char = char.lower()
+    new_sentence += char
+
+
+
+print(new_sentence)
+"""
+
+
+
+"""
+sentence = "AmAzInG SpIdErMaN ThInKs tHaT He iS AmAzInG"
+new_sentence= ""
+upper = True
+
+for char in sentence:
+    if upper:
+        char = char.upper()
+        upper = False
+    else:
+        char = char.lower()
+        upper = True
+    new_sentence += char
+
+print(new_sentence)
+"""
+#reverse transcriptase#
+"""
+dna = 'aaaaaAGGTTTATACCTTCCTAGGTAACAAACCAACCAACTTTCGATCTCTTGTAGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGT'
+opposite_dna = ''
+for char in dna:
+    if char == 'A':
+        char = 'T' 
+    elif char == 'T':
+            char = 'A'
+    elif char == 'G':
+            char = 'C'
+    elif char == 'C':
+            char = 'G'
+    opposite_dna += char
+
+print(opposite_dna)
+"""
+
+#least printer#
+
+"""
+x1 = 10
+x2 = 20
+x3 = 30
+
+if x3 < x2 and x3 < x1:
+    print(x3)
+elif x2 < x3 and x2 < x1:
+    print(x2)
+else:
+    if x1 < x2 and x1 < x3:
+        print(x1)
+        """
+# adding sepearator to the list
+
+"""
+words = ["This", "is", "a", "list"]
+
+total = ""
+seperator = " - "
+first_word = True
+
+for word in words:
+    if first_word:
+        total += word
+        first_word = False
+    else:
+        total += seperator + word
+
+print(total)
+"""
+
+#doubling numbers on a list
+
+"""numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+doubled_numbers = []
+i = 0
+while i < len(numbers):
+    numbers[i] *=2
+    i += 1
+    
+
+print(numbers)"""
