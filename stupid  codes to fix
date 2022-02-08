@@ -1,0 +1,15 @@
+#this is a very primitive search query for a list that I wanted to make it say if it is on the list or not. but instead it prints the found/not found message for every loop
+
+"""
+things = ['This', 'is', 'a', 'list']
+thing_to_find = 'is'
+found_message = "The item you searched is on the list."
+not_found_message = "The item you searched it NOT on the list."
+
+for thing in things: 
+    if thing == thing_to_find:
+        print(found_message)
+    else:
+            print(not_found_message)
+    """
+    
