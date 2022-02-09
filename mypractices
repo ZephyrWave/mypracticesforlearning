@@ -111,3 +111,9 @@ for number in numbers:
         pass
 print(some_list)
 """
+
+"""
+things = ['on', 'the', 'way', 'to', 'the', 'store']
+to_find = 'the'
+
+"""
