@@ -13,3 +13,28 @@ for thing in things:
             print(not_found_message)
     """
     
+    # this code is trying to write every letter in a string vertically + side by side
+"""
+    string1 = 'Hello'
+string2 = 'World'
+
+while len(string1) >= len(string2):
+    for i in range(len(string1)):
+        char1 = string1[1]
+        char2 = string2[1]
+    while char2.isalpha():
+        pass
+    else: 
+        char2 = " "
+else:
+    for i in range(len(string2)):
+        char1 = string1[1]
+        char2 = string2[1]
+    while char1.isalpha():
+        pass
+    else: 
+        char1 = " "
+        
+        """"
+
+
