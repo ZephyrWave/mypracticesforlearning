@@ -37,4 +37,27 @@ else:
         
         """"
 
-
+#another iteration of the same shit
+"""
+string1 = "Halilovski"
+string2 = "Ozbasak"
+while len(string1) >= len(string2):
+    for i in range(len(string1)):
+        char1 = string1[i]
+        if char2.isalpha():
+            char2 = string2[i]
+            print(char1 + " " + char2)
+        else:
+            char2 = " "
+        print(char1 + " " + char2)
+else:
+    for i in range(len(string2)):
+        char1 = string1[i]
+        char2 = string2[i]
+    if char1.isalpha():
+        char1 = string1[i]
+        print(char1 + " " + char2)
+    else:
+        char1 = " "
+    print(char1 + " " + char2)
+    """
