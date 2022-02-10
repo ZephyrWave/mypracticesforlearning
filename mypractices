@@ -112,8 +112,16 @@ for number in numbers:
 print(some_list)
 """
 
+#find all of the occurances of a word in a list
+
 """
 things = ['on', 'the', 'way', 'to', 'the', 'store']
 to_find = 'the'
 
-"""
+for i, j in index(things):
+    if j == to_find:
+        print(i)
+        
+        """
+ 
+
