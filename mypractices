@@ -123,5 +123,17 @@ for i, j in index(things):
         print(i)
         
         """
+ #print 2 strings side by side
  
+ """
+string1 = 'Hello'
+string2 = 'World'
+
+for i in range(len(string1)):
+    char1 = string1[i]
+    char2 = string2[i]
+    print(char1 + " " + char2)
+
+"""
+
 
