@@ -137,3 +137,29 @@ for i in range(len(string1)):
 """
 
 
+ #print 2 strings side by side if there are any lenght differences with each other
+
+"""
+string1 = 'Hello'
+string2 = 'Çekoslavakya'
+
+lenght1 = len(string1)
+lenght2 = len(string2)
+
+if lenght1 > lenght2:
+    lenght = lenght1
+    else: 
+        lenght = lenght2
+
+for i in range(lenght):
+    if i < len(string1):
+        char1 = string1[i]
+    else: 
+        char1 = " "
+    if i < len(string2):
+        char2 = string[i]
+    else: 
+        char2 = " "
+    
+    print(char1+ " " + char2)
+    """
