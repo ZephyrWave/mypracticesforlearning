@@ -140,15 +140,9 @@ for i in range(len(string1)):
  #print 2 strings side by side if there are any lenght differences with each other
 
 """
-string1 = 'Hello'
-string2 = 'Çekoslavakya'
-
-lenght1 = len(string1)
-lenght2 = len(string2)
-
 if lenght1 > lenght2:
     lenght = lenght1
-    else: 
+else: 
         lenght = lenght2
 
 for i in range(lenght):
@@ -157,7 +151,7 @@ for i in range(lenght):
     else: 
         char1 = " "
     if i < len(string2):
-        char2 = string[i]
+        char2 = string2[i]
     else: 
         char2 = " "
     
