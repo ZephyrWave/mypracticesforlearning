@@ -175,3 +175,16 @@ print(nums)
 
 """
 
+#better version of this code above
+"""
+nums = [1, 2, 3]
+nums.append(4)
+appendage = len(nums) +1 
+
+for i in range(20):
+    nums.append(appendage)
+    appendage += 1
+
+print(nums)
+
+""""
