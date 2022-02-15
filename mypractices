@@ -157,4 +157,21 @@ for i in range(lenght):
     
     print(char1+ " " + char2)
     """
-....
+
+#for creating a loop which works x times + adding that amount of numbers to the end of the list 
+
+"""
+
+nums = [1, 2, 3]
+nums.append(4)
+appendage = 4
+
+for i in range(20):
+    nums.append(appendage)
+    appendage += 1
+
+print(nums)
+
+
+"""
+
